@@ -4,8 +4,7 @@ name: push-img-ecr
 on: 
  push: 
   branches: [ main ]
- 
- # creaes two jobs to push images to two ECR repos
+
 jobs:
    build_matrix:
      strategy:
